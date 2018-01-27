@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 
 import styles from './styles';
 import NameCard from './components/NameCard.jsx';
+import PhotoCard from './components/PhotoCard.jsx';
+import Footer from './components/Footer.jsx';
 
 class App extends React.Component {
 
@@ -10,6 +12,8 @@ class App extends React.Component {
     return (
       <div id='appWrapper'>
         <NameCard />
+        <PhotoCard />
+        <Footer />
       </div>
     );
   }
