@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import styles from './styles';
+import NameCard from './components/NameCard.jsx';
+
 class App extends React.Component {
 
   render () {
-    return (<div>
-      <h1>Hello</h1>
-    </div>)
+    return (
+      <div id='appWrapper'>
+        <NameCard />
+      </div>
+    );
   }
 }
 
