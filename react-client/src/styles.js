@@ -16,4 +16,24 @@ export default {
     border: '1px solid red',
     textAlign: 'center'
   },
+  photoCard: {
+    margin: '1px',
+    border: '1px solid red',
+    textAlign: 'center'
+  },
+  photoCardText: {
+    padding: '0 30%'
+  },
+  footer: {
+    margin: '1px',
+    border: '1px solid red',
+    color: 'gray',
+    fontSize: '1.5em',
+    textAlign: 'center'
+  },
+  image: {
+    margin: '1px',
+    height: '480px',
+    width: '720px'
+  },
 }
